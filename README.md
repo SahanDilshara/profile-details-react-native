@@ -1,40 +1,40 @@
-# Profile Details React App
+# Profile Details React Native App
 
-Screenshot එකේ mobile **Profile Details App** එක reference කරගෙන හදපු static, responsive React + Vite UI project එකකි.
+Screenshot reference eka anuwa **React Native + Expo** walin hadapu mobile profile UI project ekak.
 
-## VS Code එකෙන් run කරන විදිහ
+## Features
 
-1. `profile-details-react` folder එක VS Code එකෙන් open කරන්න.
-2. VS Code terminal එක open කරන්න (`Ctrl + ``).
-3. පහත commands run කරන්න:
+- Native Android/iOS UI using React Native components
+- Profile avatar, name, email saha points display
+- Floating `+` button eka press karama points `1`kin wadi wenawa
+- Android saha iOS dekama run karanna puluwan Expo project ekak
+
+## VS Code eken run karana widiya
+
+1. Me project folder eka VS Code eken open karanna.
+2. Terminal eka open karala dependencies install karanna:
 
 ```bash
 npm install
-npm run dev
 ```
 
-4. Terminal එකේ පෙන්වන URL එක browser එකෙන් open කරන්න (සාමාන්‍යයෙන් `http://localhost:5173`).
-
-## Production build
+3. Expo development server eka start karanna:
 
 ```bash
-npm run build
-npm run preview
+npm start
 ```
 
-Build කළ files `dist` folder එකට ලැබේ.
+4. Phone ekata **Expo Go** app eka install karala terminal eke QR code eka scan karanna.
 
-## UI එකේ අඩංගු දේ
+Android emulator ekak thiyenawanam:
 
-- Mobile සහ desktop දෙකටම responsive UI
-- Profile avatar සහ verified mark
-- Name, email සහ points display කිරීම
-- Screenshot එකේ වගේ black app bar සහ floating `+` button
-- `+` button එක click කරන සෑම වාරයකම points එකකින් වැඩි වීම
-- Form හෝ backend එකක් නොමැති front-end implementation එකක්
+```bash
+npm run android
+```
 
 ## Main files
 
-- `src/App.jsx` — React UI components සහ profile details
-- `src/styles.css` — complete responsive styling
-- `src/main.jsx` — React entry point
+- `App.js` - complete React Native profile UI saha points state
+- `index.js` - native application entry point
+- `app.json` - Expo Android/iOS configuration
+- `package.json` - Expo saha React Native dependencies

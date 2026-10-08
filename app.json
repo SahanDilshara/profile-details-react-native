@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "Profile Details App",
+    "slug": "profile-details-react-native",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sahandilshara.profiledetails"
+    },
+    "android": {
+      "package": "com.sahandilshara.profiledetails"
+    }
+  }
+}

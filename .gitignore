@@ -1,6 +1,25 @@
+# dependencies
 node_modules/
+
+# Expo
+.expo/
 dist/
-.vite/
+web-build/
+expo-env.d.ts
+
+# generated native folders
+/ios/
+/android/
+
+# native credentials
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# logs and local files
 *.log
-working-preview.png
 .DS_Store
+.env*.local
+working-preview.png
