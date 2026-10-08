@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.vite/
+*.log
+working-preview.png
+.DS_Store
